@@ -8,7 +8,29 @@
 }
 
 @media (max-width: 768px) {
-    .card{
+    .card {
         height: 450px;
     }
+}
+
+#categoryCarousel .carousel-item .row {
+    justify-content: center;
+    padding: 0 60px;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    z-index: 5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #0d6efd;
+    border-radius: 50%;
+    background-size: 50% 50%;
+}
+
+.carousel-item .card-body {
+  font-size: 0.85rem;
 }
