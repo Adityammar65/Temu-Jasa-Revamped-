@@ -1,0 +1,14 @@
+#alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .card{
+        height: 450px;
+    }
+}
