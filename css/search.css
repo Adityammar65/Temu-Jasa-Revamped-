@@ -64,8 +64,9 @@
     }
 
     .carousel-item .card-body {
+        width: fit-content;
         white-space: normal;
-        padding: 6px;
+        padding: 2px;
         font-size: 5px;
     }
 
