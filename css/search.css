@@ -7,12 +7,6 @@
     display: none;
 }
 
-@media (max-width: 768px) {
-    .card {
-        height: 450px;
-    }
-}
-
 #categoryCarousel .carousel-item .row {
     justify-content: center;
     padding: 0 60px;
@@ -31,6 +25,50 @@
     background-size: 50% 50%;
 }
 
-.carousel-item .card-body {
-  font-size: 0.85rem;
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+    .card {
+        height: 450px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card{
+        height: 300px;
+    }
+
+    .card-title{
+        font-size: 14px;
+    }
+
+    #card-category{
+        font-size: 12px;
+    }
+
+    .card-text{
+        font-size: 11px;
+    }
+
+    .card-body{
+        padding: 12px;
+    }
+
+    #search-title{
+        font-size: 16px;
+    }
+
+    #category-title{
+        font-size: 16px;
+    }
+
+    .carousel-item .card-body{
+        width: fit-content;
+        padding: 6px;
+        overflow-wrap: normal;
+        font-size: 9px;
+    }
 }
