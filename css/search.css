@@ -10,7 +10,6 @@
 #categoryCarousel .carousel-item .row {
     justify-content: center;
     padding: 0 60px;
-
 }
 
 .carousel-control-prev,
@@ -26,34 +25,48 @@
 }
 
 /*RESPONSIVE*/
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+    #alert{
+        font-size: 0.7rem;
+    }
+
     .navbar-brand,
-    .nav-item{
+    .nav-item {
         font-size: 0.7rem;
     }
 
     .card {
-        height: 270px;
+        padding: 8px;
+        height: 100%;
     }
 
-    .card-title{
-        font-size: 12px;
-    }
-
-    #card-category{
-        font-size: 12px;
-    }
-
-    .card-text{
-        font-size: 10px;
-    }
-
-    #search-title,
-    #category-title{
+    .card-title {
         font-size: 14px;
     }
 
-    .carousel-item .card-body{
+    #card-category {
+        font-size: 14px;
+    }
+
+    .card-text {
         font-size: 12px;
+    }
+
+    #search-title,
+    #category-title {
+        font-size: 16px;
+    }
+
+    .carousel-item .card-body {
+        font-size: 12px;
+    }
+
+    .modal-title,
+    .modal-body,
+    .modal-footer,
+    .lead,
+    #jasaCategory,
+    #jasaInformation{
+        font-size: 0.8rem;
     }
 }
