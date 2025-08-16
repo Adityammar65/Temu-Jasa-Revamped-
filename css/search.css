@@ -37,6 +37,7 @@
 
     .navbar-brand,
     .nav-item {
+        width: fit-content;
         font-size: 0.7rem;
     }
 
@@ -63,8 +64,9 @@
     }
 
     .carousel-item .card-body {
+        padding: 6px;
         text-align: center;
-        font-size: 10px;
+        font-size: 6px;
     }
 
     .modal-title,
