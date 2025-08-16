@@ -7,6 +7,11 @@
     display: none;
 }
 
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+}
+
 #categoryCarousel .carousel-item .row {
     justify-content: center;
     padding: 0 60px;
@@ -26,7 +31,7 @@
 
 /*RESPONSIVE*/
 @media (max-width: 768px) {
-    #alert{
+    #alert {
         font-size: 0.7rem;
     }
 
@@ -58,7 +63,8 @@
     }
 
     .carousel-item .card-body {
-        font-size: 12px;
+        text-align: center;
+        font-size: 10px;
     }
 
     .modal-title,
@@ -66,7 +72,11 @@
     .modal-footer,
     .lead,
     #jasaCategory,
-    #jasaInformation{
-        font-size: 0.8rem;
+    #jasaInformation {
+        font-size: 0.7rem;
+    }
+
+    #jasaImage {
+        width: 250px !important;
     }
 }
