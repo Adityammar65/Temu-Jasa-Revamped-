@@ -64,8 +64,9 @@
     }
 
     .carousel-item .card-body {
+        white-space: normal;
         padding: 6px;
-        font-size: 6px;
+        font-size: 5px;
     }
 
     .modal-title,
